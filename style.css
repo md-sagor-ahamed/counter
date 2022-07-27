@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(238, 237, 237);
+}
+.counterBody{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.counterWrapper{
+    width: 30vw;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+.counterDisplay{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.counterButton{
+    display: block;
+    text-align: center;
+}
+h2{
+    display: block;
+    font-size: 50px;
+}
+.counterButton button{
+    text-transform: uppercase;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.low{
+    color: red;
+}
+.medium{
+    color: rgba(250, 173, 7, 0.945);
+}
+.heigh{
+    color: green;
+}
+.displayPosition{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
